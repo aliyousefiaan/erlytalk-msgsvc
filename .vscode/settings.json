@@ -1,0 +1,4 @@
+{  
+   "erlangFormatter.formatter": "erlfmt",
+   "editor.formatOnSave": true
+}

@@ -1,0 +1,17 @@
+{application, msgsvc, [
+    {description, "messaging-service application"},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {mod, {msgsvc_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy,
+        syn
+    ]},
+    {env, []},
+    {modules, []},
+
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
