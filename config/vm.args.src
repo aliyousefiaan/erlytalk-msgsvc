@@ -1,0 +1,2 @@
+-name msgsvc@${NODE_IP}
+-setcookie ${MSGSVC_CLUSTER_SECRET}
